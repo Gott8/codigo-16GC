@@ -1,5 +1,5 @@
 h1 {
-    font-family: apple-system, helvetica, arial, sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 45px;
     font-weight:100;
 }
@@ -9,7 +9,7 @@ body {
 font-family: Arial, Helvetica, sans-serif;
 } 
 .parrafo {
-    font-family: "Dank Mono", monospace; 
+    font-family: 'Kdam Thmor Pro', sans-serif; 
     font-size: 100px;
     font-weight: bold; 
 }
@@ -63,4 +63,17 @@ ul {
     text-decoration-color: rgb(255, 183, 0);
     /* Estamos indicando que el texto sea en minusiculas */
     text-transform: lowercase;
+  }
+
+  .parrafo2 {
+    background-color:rgba(53, 461, 239, 0.3);
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 45px;
+
+  }
+
+  @font-face {
+      font-family: 'Roboto Mono', monospace;
+      src: url("../fonts/RobotoMono-Regular.ttf");
   }
