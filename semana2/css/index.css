@@ -1,0 +1,66 @@
+h1 {
+    font-family: apple-system, helvetica, arial, sans-serif;
+    font-size: 45px;
+    font-weight:100;
+}
+
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+} 
+.parrafo {
+    font-family: "Dank Mono", monospace; 
+    font-size: 100px;
+    font-weight: bold; 
+}
+
+.link-a {
+ font-size: 25px;
+ font-family: "Dank Mono", monospace;
+ text-decoration: none; 
+ color: rgb(224, 7, 7);
+}
+
+ul {
+    background-color: rgba(53, 146, 239, 0.3);
+  }
+  
+  .span-1 {
+    text-decoration: line-through;
+    text-transform: capitalize;
+  }
+  
+  .span-2 {
+    text-decoration: overline;
+  }
+  
+  .span-3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  
+  .span-4 {
+    text-decoration: line-through;
+    text-decoration-color: #f01;
+  }
+  
+  .span-5 {
+    text-decoration: overline;
+    background-color: #0ba;
+    text-decoration-color: #fff;
+  }
+  
+  /* 
+    lowercase => Minusculas
+    uppercase => mayusculas
+    capitalize => Primera del text en mayuscula
+   */
+  
+  .span-6 {
+    color: #fff;
+    text-decoration: underline;
+    background-color: rgb(252, 90, 255);
+    text-decoration-color: rgb(255, 183, 0);
+    /* Estamos indicando que el texto sea en minusiculas */
+    text-transform: lowercase;
+  }
