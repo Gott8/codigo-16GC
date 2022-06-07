@@ -1,0 +1,29 @@
+h1 {
+    position: relative;
+    text-align: center;
+    color: aqua!important;
+}
+
+.caja {
+    position: relative;
+}
+
+table {
+    border: 1px dashed black;
+    padding: 0px;
+    text-align: center;
+}
+
+thead {
+    background-color: aqua;
+}
+
+tbody {
+    color: white;
+    background-color: black;
+}
+
+tr:hover {
+    background-color: white!important;
+    color: black!important;
+}
