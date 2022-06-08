@@ -1,0 +1,45 @@
+body{
+    margin-left:40px;
+    margin-right:40px;
+}
+
+p{
+
+}
+
+.align{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+}   
+
+.solid{
+    border-style: solid;
+    border-color: #649664
+}
+
+.dashed{
+    border-style: dashed;
+    border-color: #d32c2c;
+}
+
+.double{
+    border-style: double;
+    border-color: aqua;
+}
+
+.groove{
+    border-style: groove;
+}
+
+.initial{
+    border-style: initial;
+}
+
+.outset{
+    border-style: outset;
+}
+
+.left_solid{
+    border-left: solid rebeccapurple 10px;
+    
+}
