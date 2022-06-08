@@ -3,10 +3,6 @@ body{
     margin-right:40px;
 }
 
-p{
-
-}
-
 .align{
     font-family: 'Kdam Thmor Pro', sans-serif;
     text-align: center;
@@ -42,4 +38,20 @@ p{
 .left_solid{
     border-left: solid rebeccapurple 10px;
     
+}
+
+.top_dashed{
+    border-top:dashed 13px #0468b9
+}
+
+.bottom-double{
+    border-color: #a0822f;
+    border-style: double;
+    
+}
+
+.mix-left-top{
+    border-style: solid dotted solid dotted;
+    border-width: 13px;
+    border-color: black yellow green blue;
 }
