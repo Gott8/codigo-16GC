@@ -1,0 +1,28 @@
+body{
+    font-family:'Courier New', Courier, monospace
+}
+
+.bg{
+    border: solid;
+    height: 300px;
+}
+
+.color-red{
+    background-color:rgb(199, 37, 37);
+}
+
+.color-green{
+    background-color:rgb(52, 180, 70);
+}
+
+.bg-img{
+    background: url(../../semana1/images/81e2285225282c6dc6cbca2545da669a.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-img-leon{
+   background: url(../../semana2/images/leon.png);
+   background-repeat: no-repeat;
+
+}
