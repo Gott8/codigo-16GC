@@ -1,0 +1,53 @@
+.bg-box{
+    height: 400px;
+    width: 400px;
+    background-color:blue;
+    position: relative;
+    top: 100px; 
+    left : 100px;
+}
+
+.padre{
+    width: 500px;
+    height: 500px;
+    background-color:aqua;
+    position: relative;
+}
+
+.hijo{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    position:absolute;
+
+}   
+
+.bandera{
+    height: 100vh;
+    border: solid;
+   
+}
+
+.green{
+    background-color:green;
+    height: 100vh;
+    width: 40%;
+    float: left;
+}
+
+.red{
+    background-color:red;
+    height: 100vh;
+    width: 60%;
+    float: right;
+}
+
+.escudo{
+    background: url(/semana2/images/portugal.svg.png);
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: calc(50% - 100px);
+    left:calc(40% - 100px);
+}
