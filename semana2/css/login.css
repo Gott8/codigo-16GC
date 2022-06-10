@@ -1,0 +1,54 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2a2c4e;
+}
+
+#container{
+    width:400px;
+    height:300px;
+    background-color: #5c5692;
+    margin: 100px auto;
+    border-radius: 25px;
+    box-shadow: 20px 20px 20px;
+}
+
+.form-control{
+    margin-top:20px;
+}
+
+#campos{
+    padding-top:40px;
+    text-align:center;
+}
+
+#user{
+    height:30px;
+    border: 1px solid #000018;
+    border-radius: 5px;
+}
+
+#user:focus{
+    height: 45px;
+}
+
+#pass{
+    height:30px;
+    border: 1px solid #000018;
+    border-radius: 5px;
+}
+
+#pass:focus{
+    height: 45px;
+}
+
+#submit{
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+
+}
+
+#submit:hover{
+    height: 35px;
+    background-color: #925aac;
+}

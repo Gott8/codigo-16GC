@@ -6,14 +6,22 @@ body{
 h1{
     border:1px black solid;
     border-radius: 10px;
-    text-align: center;
-    
+    text-align: center; 
 }
+
+h1:hover{
+    text-decoration: underline;
+}
+
 #contenedor{
     width: 200px;
     height: 200px;
     background: linear-gradient(black, rgb(170, 45, 45) 50%);
     margin:auto;
+}
+
+#contenedor:hover{
+    background: linear-gradient(to top, red 30%, white 30%, white 70%, red 30%);
 }
 
 .sombra{
