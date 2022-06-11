@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    position: relative;
+    border: solid 1px black;
+}
+
+.container-intern{
+    width: 375px;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 16px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    border: solid;  
+    margin: auto;
+    
+
+}
+
+.container-intern *{
+    margin-top: 10px;
+}
+img{
+    width: 335px;
+    border-radius: 16px;
+}
+
+h4{
+    width: 60%;
+    margin: auto;
+}
+
+p{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
