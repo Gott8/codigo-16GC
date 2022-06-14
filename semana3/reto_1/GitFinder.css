@@ -1,0 +1,53 @@
+.container{
+    background-color: #1c253f;
+    font-family: 'Fredoka', sans-serif;
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    padding-left:35%;
+    
+    
+}
+
+h1{
+    color: #fff;
+}
+
+.bar{
+    font-family: 'Fredoka', sans-serif;
+    height:30px;
+    width:500px;
+    border-radius:6px;
+}
+
+
+.button{
+    background-color: #0d6efd;
+    color: #fff;
+    font-family: 'Fredoka', sans-serif;
+    border: none;
+    height:35px;
+    width:180px;
+    border-radius:6px;
+}
+
+img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    margin-top: 12px;
+}
+
+.results{
+    color: #fff;
+    background-color: #22326b;
+    height:130px;
+    width:700px;
+    margin-top: 20px;
+    border-radius:16px; 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  
+}

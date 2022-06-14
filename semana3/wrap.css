@@ -1,0 +1,13 @@
+.container {
+    height: 100vh;
+    border: solid 3px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.container div{
+    height: 200px;
+    width: 20%;
+    border: solid red;
+
+}
