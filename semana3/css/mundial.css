@@ -84,3 +84,59 @@ header a:hover {
 .dropdown:hover .dropdown-button {
     text-decoration: underline;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    body{
+        background-color: rgb(2, 91, 133);
+    } 
+
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 20px 50px;
+        height:100vh;
+        width: 45%;
+
+    }
+
+    header ul {
+        margin-top: 20px;
+        flex-direction:column;
+        padding: 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+ {
+   body{
+    background-color:green;
+   }  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+ {
+   body{
+    background-color:purple;
+   }  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+    body{
+        background-color: black;
+    } 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+ {
+   body{
+    background-color: blue;
+   } 
+}
