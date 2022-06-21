@@ -1,8 +1,8 @@
 :root{
-    --primer-color: #cdeefc;
-    --segundo-color:#cecece;
+    --primer-color: #e9f4f8;
+    --segundo-color:#e2e2e29d;
 
-    --texto-pequeño:1.2rem;
-    --texto-mediano:1.4rem;
-    --texto-grande:1.6rem;
+    --texto-pequeño:1rem;
+    --texto-mediano:1.2rem;
+    --texto-grande:1.4rem;
 }
