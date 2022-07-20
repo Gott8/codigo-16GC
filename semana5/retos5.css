@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    font-family: 'Nanum Myeongjo', serif;
+    background-color: #dfd7d7;
+  }
+
+  .header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;left: 0;
+}
+
+main{
+  padding-top: 100px;
+}
+
+.section {
+  text-align: center;
+}
+
+#input-search {
+  padding: 8px;
+  width: 300px;
+}
+
+#btn-search {
+  border: solid #4e4d4d;
+  padding: 8px;
+  background-color: #4e4d4d;
+  width: 120px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+
+#btn-search:hover{
+  background-color: hsl(0, 0%, 54%);
+  border: solid  hsl(0, 0%, 54%);
+}
+
+
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container .btn-menu, .logo{
+    float: left;
+    line-height:100px;
+}
+.container .btn-menu label{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo h1{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.container .menu{
+    float: right;
+    line-height: 100px;
+}
+.container .menu a{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: rgb(3, 0, 0);
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+}
+/*Fin de Estilos para el encabezado*/
+
+/*Menù lateral*/
+#btn-menu{
+    display: none;
+
+}
+.container-menu{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menu{
+    width: 100%;
+    max-width: 250px;
+    background: #1c1c1c;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+.cont-menu nav{
+    transform: translateY(15%);
+}
+.cont-menu nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #f1f0f0;
+    background-color: #1c1c1c;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+    border-left: 5px solid #c7c7c7;
+    background: #4e4d4d;
+}
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: rgb(56, 56, 56);
+    cursor: pointer;
+    font-size: 18px;
+}
+/*Fin de Menù lateral*/
+  
+  
+  
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+  
+  .card {
+    border-radius: 8px;
+    box-shadow: 5px 2px 15px 5px rgba(196, 196, 196, 0.94);
+    width: 25%;
+    margin: 20px;
+    background-color:#fff;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 30px;
+  }
+  
+  .contenedor-photo {
+    text-align: center;
+  }
+  
+  img {
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+  }
+  
+  .contenedor-price {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .price {
+    text-decoration: line-through;
+  }
+  
+  .sale-price {
+    color: rgb(131, 1, 10);
+  }
+  
+  .btn-buy {
+    border: none;
+    background-color: #303333;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 95%;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  .btn-buy:hover{
+    background-color: #6b6b6b
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
+  }

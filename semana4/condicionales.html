@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Condicionales</title>
+    <style type="text/css">
+        .frio {
+            color: blue;
+        }
+
+        .templado{
+            color: lightblue;
+        }
+
+        .calido{
+            color:brown;
+        }
+
+        .tropical{
+            color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Martes 21 de Junio</h1>
+    <h2>Condicionales + document.write( )</h2>
+    <hr>
+</body>
+
+<script type="text/javascript">
+    
+    // //Notas 
+    // document.write("<h3>Notas</h3>");
+
+    // let nota = 13;
+
+    // // nota = Number(prompt("Ingresa tu nota"));
+
+
+    // if (isNaN(nota)) {
+    //     alert ("Solo números, por favor");
+    //     nota = Number(prompt("Ingresa tu nota"));
+    // }    
+
+
+
+    // if (nota < 11) {
+
+    //     document.write("<p>" + nota + "</p>");
+    //     document.write("<p>Desaprobado</p>");
+    // }
+
+    // else {
+    //     document.write("<p>" + nota + "</p>");
+    //     document.write("<p>Aprobado</p>");
+    // }
+    // document.write("<hr>")
+
+    // // Angulos:
+    // document.write("<h3>Ángulos</h3>");
+    // let angulo = 361;
+    // document.write("<p>" + angulo + "</p>");
+
+    // if (angulo == 0) {
+    //     document.write("<p>Nulo.</p>");
+    // } else if (angulo < 90) {
+    //     document.write("<p>Águdo.</p>");
+    // } else if (angulo == 90) {
+    //     document.write("<p>Recto.</p>");
+    // } else if (angulo < 180) {
+    //     document.write("<p>Obtuso.</p>");
+    // } else if (angulo == 180) {
+    //     document.write("<p>Llano.</p>");
+    // } else if (angulo < 360) {
+    //     document.write("<p>Concavo.</p>");
+    // } else if (angulo == 360) {
+    //     document.write("<p>Completo.</p>");
+    // } else {
+    //     document.write("<p>INEXISTENTE.</p>");
+    // }
+
+
+    //Clima
+
+    temperatura = Number(prompt("Ingresa la temperatura:"));
+    if (isNaN(temperatura)) {
+        alert ("Solo números, por favor");
+        temperatura = Number(prompt("Ingresa la temperatura:"));
+    }
+
+    if (temperatura < 10) {
+        document.write("<p class='frio'>Clima frío</p>");
+    }
+     else if (temperatura < 16) {
+        document.write("<p class='templado'>Clima templado</p>");
+    }
+     else if (temperatura < 24) {
+        document.write("<p class='calido'>Clima cálido</p>");
+    }
+     else if (temperatura > 24) {
+        document.write("<p class='tropical'>Clima tropical</p>");
+    }
+ // Operadores Lógicos:
+    // document.body.style.backgroundColor = 'red';
+    let h1_texto = document.getElementsByTagName("h1")[0].innerText;
+    console.log(h1_texto);
+    // document.getElementsByTagName("h1")[0].innerText = 'Bruno Díaz';
+    // document.getElementsByTagName("body")[0].style.color = 'blue';
+
+    // Tipos de datos:
+    // Boolean (booleano True / False)
+    // && (AND)
+    // || (OR)
+    // !  (NOT)
+
+    // alert(true && true); // true
+    // alert(true && false); // false
+    // alert(false && true); // false
+    // alert(false && false); // false
+
+    // (AND) Si 1 de los valores es false, entonces false.
+    // (AND) Si todos son true, entonces true.
+    document.write("<h1>Cielo</h1>");
+    let hora = 10;
+    // hora < 18 // false
+    // hora > 6 // true
+    let cielo;
+    if (hora < 18 && hora > 6) {
+        cielo = 'dia';
+    } else {
+        cielo = 'noche';
+    }
+
+    document.write("<p>Son las " + hora + " horas y es de " + cielo + "</p>");
+    document.write("<hr>");
+
+    // alert(true || true); // true
+    // alert(true || false); // true
+    // alert(false || true); // true
+    // alert(false || false); // false
+
+    // (OR) Si 1 de los valores es true, entonces true.
+    // (OR) Si todos son false, entonces false.
+
+    let nombre = "Magaly";
+    let edad = 30; // > 30
+    let estado_civil = 'soltera'; // casada
+    let numero_hijos = 0; // > 0
+
+    if ("30" === "30") {
+        document.write("<p>Buen día sra. " + nombre + "</p>");
+    } else {
+        document.write("<p>Buen día señorita " + nombre + "</p>");
+    }
+
+    // = Asignar valor a una variable.
+    // == Comparar 2 valores. (se usa en una condición).
+    // === Comparar 2 valores adicionalmente por el tipo de dato.
+    // > Mayor que
+    // < Menor que
+    // >= Mayor O igual
+    // <= Menor O igual   
+</script>
+</html>
